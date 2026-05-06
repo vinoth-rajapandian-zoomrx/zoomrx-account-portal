@@ -1,0 +1,1558 @@
+{
+  "alkermes": {
+    "name": "Alkermes",
+    "slug": "alkermes",
+    "docs": [
+      {
+        "slug": "contacts",
+        "name": "Contacts",
+        "route": "/accounts/alkermes/contacts",
+        "type": "account-contacts"
+      },
+      {
+        "slug": "financials",
+        "name": "Financials",
+        "route": "/accounts/alkermes/financials",
+        "type": "account-financials"
+      },
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/alkermes/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "projects",
+        "name": "Projects",
+        "route": "/accounts/alkermes/projects",
+        "type": "account-projects"
+      },
+      {
+        "slug": "relationships",
+        "name": "Relationships",
+        "route": "/accounts/alkermes/relationships",
+        "type": "account-relationships"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/alkermes/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {
+      "psychiatry": {
+        "name": "Psychiatry",
+        "slug": "psychiatry",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/alkermes/ta/psychiatry/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/alkermes/ta/psychiatry/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/alkermes/ta/psychiatry/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/alkermes/ta/psychiatry/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/alkermes/ta/psychiatry/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_addiction",
+            "name": "knowledge doc addiction",
+            "route": "/accounts/alkermes/ta/psychiatry/knowledge_doc_addiction",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_schizophrenia",
+            "name": "knowledge doc schizophrenia",
+            "route": "/accounts/alkermes/ta/psychiatry/knowledge_doc_schizophrenia",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/alkermes/ta/psychiatry/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/alkermes/ta/psychiatry/thesis",
+            "type": "thesis"
+          }
+        ]
+      }
+    }
+  },
+  "alnylam": {
+    "name": "Alnylam",
+    "slug": "alnylam",
+    "docs": [
+      {
+        "slug": "contacts",
+        "name": "Contacts",
+        "route": "/accounts/alnylam/contacts",
+        "type": "account-contacts"
+      },
+      {
+        "slug": "financials",
+        "name": "Financials",
+        "route": "/accounts/alnylam/financials",
+        "type": "account-financials"
+      },
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/alnylam/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "projects",
+        "name": "Projects",
+        "route": "/accounts/alnylam/projects",
+        "type": "account-projects"
+      },
+      {
+        "slug": "relationships",
+        "name": "Relationships",
+        "route": "/accounts/alnylam/relationships",
+        "type": "account-relationships"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/alnylam/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {
+      "ahp": {
+        "name": "AHP",
+        "slug": "ahp",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/alnylam/ta/ahp/briefing_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/alnylam/ta/ahp/briefing_Q1-2026",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/alnylam/ta/ahp/briefing_Q3-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/alnylam/ta/ahp/briefing_Q4-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/alnylam/ta/ahp/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/alnylam/ta/ahp/synthesis_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/alnylam/ta/ahp/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      },
+      "attr": {
+        "name": "ATTR",
+        "slug": "attr",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/alnylam/ta/attr/briefing_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/alnylam/ta/attr/briefing_Q1-2026",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/alnylam/ta/attr/briefing_Q3-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/alnylam/ta/attr/briefing_Q4-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/alnylam/ta/attr/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/alnylam/ta/attr/synthesis_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/alnylam/ta/attr/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      },
+      "ph": {
+        "name": "PH",
+        "slug": "ph",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/alnylam/ta/ph/briefing_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/alnylam/ta/ph/briefing_Q1-2026",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/alnylam/ta/ph/briefing_Q3-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/alnylam/ta/ph/briefing_Q4-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/alnylam/ta/ph/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/alnylam/ta/ph/synthesis_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/alnylam/ta/ph/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      }
+    }
+  },
+  "azn": {
+    "name": "AstraZeneca",
+    "slug": "azn",
+    "docs": [],
+    "tas": {
+      "hematology": {
+        "name": "Hematology",
+        "slug": "hematology",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/azn/ta/hematology/briefing_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/azn/ta/hematology/briefing_Q1-2026",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/azn/ta/hematology/briefing_Q3-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/azn/ta/hematology/briefing_Q4-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/azn/ta/hematology/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/azn/ta/hematology/synthesis_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/azn/ta/hematology/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      },
+      "oncology": {
+        "name": "Oncology",
+        "slug": "oncology",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/azn/ta/oncology/briefing_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/azn/ta/oncology/briefing_Q1-2026",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/azn/ta/oncology/briefing_Q3-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/azn/ta/oncology/briefing_Q4-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/azn/ta/oncology/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/azn/ta/oncology/synthesis_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/azn/ta/oncology/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      }
+    }
+  },
+  "emd-serono": {
+    "name": "EMD Serono",
+    "slug": "emd-serono",
+    "docs": [
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/emd-serono/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/emd-serono/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {}
+  },
+  "exelixis": {
+    "name": "Exelixis",
+    "slug": "exelixis",
+    "docs": [
+      {
+        "slug": "contacts",
+        "name": "Contacts",
+        "route": "/accounts/exelixis/contacts",
+        "type": "account-contacts"
+      },
+      {
+        "slug": "financials",
+        "name": "Financials",
+        "route": "/accounts/exelixis/financials",
+        "type": "account-financials"
+      },
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/exelixis/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "projects",
+        "name": "Projects",
+        "route": "/accounts/exelixis/projects",
+        "type": "account-projects"
+      },
+      {
+        "slug": "relationships",
+        "name": "Relationships",
+        "route": "/accounts/exelixis/relationships",
+        "type": "account-relationships"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/exelixis/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {}
+  },
+  "genmab": {
+    "name": "Genmab",
+    "slug": "genmab",
+    "docs": [
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/genmab/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/genmab/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {
+      "hematology": {
+        "name": "Hematology",
+        "slug": "hematology",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/genmab/ta/hematology/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/genmab/ta/hematology/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/genmab/ta/hematology/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/genmab/ta/hematology/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/genmab/ta/hematology/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/genmab/ta/hematology/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/genmab/ta/hematology/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      }
+    }
+  },
+  "jnj": {
+    "name": "Johnson & Johnson",
+    "slug": "jnj",
+    "docs": [
+      {
+        "slug": "ao_plan_dave",
+        "name": "ao_plan_dave",
+        "route": "/accounts/jnj/ao_plan_dave",
+        "type": "account-plan"
+      },
+      {
+        "slug": "contacts",
+        "name": "Contacts",
+        "route": "/accounts/jnj/contacts",
+        "type": "account-contacts"
+      },
+      {
+        "slug": "financials",
+        "name": "Financials",
+        "route": "/accounts/jnj/financials",
+        "type": "account-financials"
+      },
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/jnj/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "projects",
+        "name": "Projects",
+        "route": "/accounts/jnj/projects",
+        "type": "account-projects"
+      },
+      {
+        "slug": "relationships",
+        "name": "Relationships",
+        "route": "/accounts/jnj/relationships",
+        "type": "account-relationships"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/jnj/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {
+      "gu": {
+        "name": "GU",
+        "slug": "gu",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/jnj/ta/gu/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/jnj/ta/gu/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/jnj/ta/gu/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/jnj/ta/gu/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/jnj/ta/gu/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_nmibc",
+            "name": "knowledge doc nmibc",
+            "route": "/accounts/jnj/ta/gu/knowledge_doc_nmibc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_2026-04-24",
+            "name": "synthesis 2026-04-24",
+            "route": "/accounts/jnj/ta/gu/synthesis_2026-04-24",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/jnj/ta/gu/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/jnj/ta/gu/thesis",
+            "type": "thesis"
+          }
+        ]
+      },
+      "hematology": {
+        "name": "Hematology",
+        "slug": "hematology",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/jnj/ta/hematology/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/jnj/ta/hematology/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/jnj/ta/hematology/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/jnj/ta/hematology/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/jnj/ta/hematology/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_2026-04-24",
+            "name": "synthesis 2026-04-24",
+            "route": "/accounts/jnj/ta/hematology/synthesis_2026-04-24",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/jnj/ta/hematology/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/jnj/ta/hematology/thesis",
+            "type": "thesis"
+          }
+        ]
+      },
+      "immunology": {
+        "name": "Immunology",
+        "slug": "immunology",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/jnj/ta/immunology/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/jnj/ta/immunology/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/jnj/ta/immunology/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/jnj/ta/immunology/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/jnj/ta/immunology/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_gmg",
+            "name": "knowledge doc gmg",
+            "route": "/accounts/jnj/ta/immunology/knowledge_doc_gmg",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_psoriasis",
+            "name": "knowledge doc psoriasis",
+            "route": "/accounts/jnj/ta/immunology/knowledge_doc_psoriasis",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/jnj/ta/immunology/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/jnj/ta/immunology/thesis",
+            "type": "ta-thesis"
+          }
+        ]
+      },
+      "lung": {
+        "name": "Lung",
+        "slug": "lung",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/jnj/ta/lung/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/jnj/ta/lung/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/jnj/ta/lung/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/jnj/ta/lung/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/jnj/ta/lung/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_overview",
+            "name": "knowledge doc overview",
+            "route": "/accounts/jnj/ta/lung/knowledge_doc_overview",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_2026-04-24",
+            "name": "synthesis 2026-04-24",
+            "route": "/accounts/jnj/ta/lung/synthesis_2026-04-24",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "synthesis_enriched_local",
+            "name": "synthesis enriched local",
+            "route": "/accounts/jnj/ta/lung/synthesis_enriched_local",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/jnj/ta/lung/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/jnj/ta/lung/thesis",
+            "type": "thesis"
+          }
+        ]
+      },
+      "neuroscience": {
+        "name": "Neuroscience",
+        "slug": "neuroscience",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/jnj/ta/neuroscience/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/jnj/ta/neuroscience/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/jnj/ta/neuroscience/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/jnj/ta/neuroscience/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/jnj/ta/neuroscience/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/jnj/ta/neuroscience/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/jnj/ta/neuroscience/thesis",
+            "type": "ta-thesis"
+          }
+        ]
+      }
+    }
+  },
+  "merck": {
+    "name": "Merck",
+    "slug": "merck",
+    "docs": [
+      {
+        "slug": "contacts",
+        "name": "Contacts",
+        "route": "/accounts/merck/contacts",
+        "type": "account-contacts"
+      },
+      {
+        "slug": "financials",
+        "name": "Financials",
+        "route": "/accounts/merck/financials",
+        "type": "account-financials"
+      },
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/merck/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "projects",
+        "name": "Projects",
+        "route": "/accounts/merck/projects",
+        "type": "account-projects"
+      },
+      {
+        "slug": "relationships",
+        "name": "Relationships",
+        "route": "/accounts/merck/relationships",
+        "type": "account-relationships"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/merck/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {
+      "hiv": {
+        "name": "HIV",
+        "slug": "hiv",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/merck/ta/hiv/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/merck/ta/hiv/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/merck/ta/hiv/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/merck/ta/hiv/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/merck/ta/hiv/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/merck/ta/hiv/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/merck/ta/hiv/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      },
+      "oncology": {
+        "name": "Oncology",
+        "slug": "oncology",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/merck/ta/oncology/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/merck/ta/oncology/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/merck/ta/oncology/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/merck/ta/oncology/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/merck/ta/oncology/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/merck/ta/oncology/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/merck/ta/oncology/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      },
+      "rsv": {
+        "name": "RSV",
+        "slug": "rsv",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/merck/ta/rsv/briefing_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/merck/ta/rsv/briefing_Q1-2026",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/merck/ta/rsv/briefing_Q3-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/merck/ta/rsv/briefing_Q4-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/merck/ta/rsv/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/merck/ta/rsv/synthesis_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/merck/ta/rsv/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      },
+      "transplant": {
+        "name": "Transplant",
+        "slug": "transplant",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/merck/ta/transplant/briefing_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/merck/ta/transplant/briefing_Q1-2026",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/merck/ta/transplant/briefing_Q3-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/merck/ta/transplant/briefing_Q4-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/merck/ta/transplant/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/merck/ta/transplant/synthesis_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/merck/ta/transplant/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      },
+      "vaccines": {
+        "name": "Vaccines",
+        "slug": "vaccines",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/merck/ta/vaccines/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/merck/ta/vaccines/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/merck/ta/vaccines/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/merck/ta/vaccines/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/merck/ta/vaccines/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/merck/ta/vaccines/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/merck/ta/vaccines/thesis",
+            "type": "ta-thesis"
+          }
+        ]
+      }
+    }
+  },
+  "novartis": {
+    "name": "Novartis",
+    "slug": "novartis",
+    "docs": [
+      {
+        "slug": "contacts",
+        "name": "Contacts",
+        "route": "/accounts/novartis/contacts",
+        "type": "account-contacts"
+      },
+      {
+        "slug": "financials",
+        "name": "Financials",
+        "route": "/accounts/novartis/financials",
+        "type": "account-financials"
+      },
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/novartis/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "projects",
+        "name": "Projects",
+        "route": "/accounts/novartis/projects",
+        "type": "account-projects"
+      },
+      {
+        "slug": "relationships",
+        "name": "Relationships",
+        "route": "/accounts/novartis/relationships",
+        "type": "account-relationships"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/novartis/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {}
+  },
+  "novo-nordisk": {
+    "name": "Novo Nordisk",
+    "slug": "novo-nordisk",
+    "docs": [
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/novo-nordisk/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/novo-nordisk/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {}
+  },
+  "pfizer": {
+    "name": "Pfizer",
+    "slug": "pfizer",
+    "docs": [
+      {
+        "slug": "contacts",
+        "name": "Contacts",
+        "route": "/accounts/pfizer/contacts",
+        "type": "account-contacts"
+      },
+      {
+        "slug": "financials",
+        "name": "Financials",
+        "route": "/accounts/pfizer/financials",
+        "type": "account-financials"
+      },
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/pfizer/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "projects",
+        "name": "Projects",
+        "route": "/accounts/pfizer/projects",
+        "type": "account-projects"
+      },
+      {
+        "slug": "relationships",
+        "name": "Relationships",
+        "route": "/accounts/pfizer/relationships",
+        "type": "account-relationships"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/pfizer/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {
+      "vaccines": {
+        "name": "Vaccines",
+        "slug": "vaccines",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/pfizer/ta/vaccines/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/pfizer/ta/vaccines/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/pfizer/ta/vaccines/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/pfizer/ta/vaccines/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/pfizer/ta/vaccines/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_meningococcal",
+            "name": "knowledge doc meningococcal",
+            "route": "/accounts/pfizer/ta/vaccines/knowledge_doc_meningococcal",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_pneumococcal",
+            "name": "knowledge doc pneumococcal",
+            "route": "/accounts/pfizer/ta/vaccines/knowledge_doc_pneumococcal",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_rsv",
+            "name": "knowledge doc rsv",
+            "route": "/accounts/pfizer/ta/vaccines/knowledge_doc_rsv",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/pfizer/ta/vaccines/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/pfizer/ta/vaccines/thesis",
+            "type": "thesis"
+          }
+        ]
+      }
+    }
+  },
+  "takeda": {
+    "name": "Takeda",
+    "slug": "takeda",
+    "docs": [
+      {
+        "slug": "contacts",
+        "name": "Contacts",
+        "route": "/accounts/takeda/contacts",
+        "type": "account-contacts"
+      },
+      {
+        "slug": "financials",
+        "name": "Financials",
+        "route": "/accounts/takeda/financials",
+        "type": "account-financials"
+      },
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/takeda/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "projects",
+        "name": "Projects",
+        "route": "/accounts/takeda/projects",
+        "type": "account-projects"
+      },
+      {
+        "slug": "relationships",
+        "name": "Relationships",
+        "route": "/accounts/takeda/relationships",
+        "type": "account-relationships"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/takeda/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {}
+  },
+  "ucb": {
+    "name": "UCB",
+    "slug": "ucb",
+    "docs": [
+      {
+        "slug": "contacts",
+        "name": "Contacts",
+        "route": "/accounts/ucb/contacts",
+        "type": "account-contacts"
+      },
+      {
+        "slug": "financials",
+        "name": "Financials",
+        "route": "/accounts/ucb/financials",
+        "type": "account-financials"
+      },
+      {
+        "slug": "overview",
+        "name": "Overview",
+        "route": "/accounts/ucb/overview",
+        "type": "account-overview"
+      },
+      {
+        "slug": "projects",
+        "name": "Projects",
+        "route": "/accounts/ucb/projects",
+        "type": "account-projects"
+      },
+      {
+        "slug": "relationships",
+        "name": "Relationships",
+        "route": "/accounts/ucb/relationships",
+        "type": "account-relationships"
+      },
+      {
+        "slug": "whitespace",
+        "name": "White Space",
+        "route": "/accounts/ucb/whitespace",
+        "type": "account-whitespace"
+      }
+    ],
+    "tas": {
+      "epilepsy": {
+        "name": "Epilepsy",
+        "slug": "epilepsy",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/ucb/ta/epilepsy/briefing_latest",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/ucb/ta/epilepsy/briefing_Q1-2026",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/ucb/ta/epilepsy/briefing_Q3-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/ucb/ta/epilepsy/briefing_Q4-2025",
+            "type": "ta-briefing"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/ucb/ta/epilepsy/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc_dravet",
+            "name": "knowledge doc dravet",
+            "route": "/accounts/ucb/ta/epilepsy/knowledge_doc_dravet",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/ucb/ta/epilepsy/synthesis_latest",
+            "type": "ta-synthesis"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/ucb/ta/epilepsy/thesis",
+            "type": "thesis"
+          }
+        ]
+      },
+      "gmg": {
+        "name": "gMG",
+        "slug": "gmg",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/ucb/ta/gmg/briefing_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/ucb/ta/gmg/briefing_Q1-2026",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/ucb/ta/gmg/briefing_Q3-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/ucb/ta/gmg/briefing_Q4-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/ucb/ta/gmg/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/ucb/ta/gmg/synthesis_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/ucb/ta/gmg/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      },
+      "immunology": {
+        "name": "Immunology",
+        "slug": "immunology",
+        "docs": [
+          {
+            "slug": "briefing_latest",
+            "name": "Latest Briefing",
+            "route": "/accounts/ucb/ta/immunology/briefing_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q1-2026",
+            "name": "briefing Q1-2026",
+            "route": "/accounts/ucb/ta/immunology/briefing_Q1-2026",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q3-2025",
+            "name": "briefing Q3-2025",
+            "route": "/accounts/ucb/ta/immunology/briefing_Q3-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "briefing_Q4-2025",
+            "name": "briefing Q4-2025",
+            "route": "/accounts/ucb/ta/immunology/briefing_Q4-2025",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "knowledge_doc",
+            "name": "Knowledge Doc",
+            "route": "/accounts/ucb/ta/immunology/knowledge_doc",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "synthesis_latest",
+            "name": "Synthesis",
+            "route": "/accounts/ucb/ta/immunology/synthesis_latest",
+            "type": "ta-knowledge"
+          },
+          {
+            "slug": "thesis",
+            "name": "Thesis",
+            "route": "/accounts/ucb/ta/immunology/thesis",
+            "type": "ta-knowledge"
+          }
+        ]
+      }
+    }
+  }
+}

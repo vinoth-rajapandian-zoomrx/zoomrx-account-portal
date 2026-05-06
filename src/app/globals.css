@@ -1,26 +1,205 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: #0f1117;
+  --color-surface: #1a1d27;
+  --color-surface2: #242836;
+  --color-border: #2d3348;
+  --color-text: #e4e6f0;
+  --color-text-dim: #8b90a5;
+  --color-accent: #6c8aff;
+  --color-accent-glow: rgba(108, 138, 255, 0.15);
+  --color-green: #34d399;
+  --color-yellow: #fbbf24;
+  --color-red: #f87171;
+  --color-blue: #60a5fa;
+  --color-orange: #fb923c;
+  --color-purple: #a78bfa;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* ===== LAYOUT SHELL — plain CSS, no Tailwind ===== */
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: #1a1d27;
+  border-bottom: 1px solid #2d3348;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  z-index: 100;
+  gap: 20px;
+}
+
+.app-sidebar {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 260px;
+  height: calc(100vh - 56px);
+  background: #1a1d27;
+  border-right: 1px solid #2d3348;
+  overflow-y: auto;
+  z-index: 50;
+}
+
+.app-main {
+  margin-left: 260px;
+  margin-top: 56px;
+  min-height: calc(100vh - 56px);
+  padding: 32px;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-dim);
+}
+
+/* Markdown content styles */
+.doc-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 16px;
+  color: var(--color-text);
+}
+.doc-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 28px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+.doc-content h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0 8px;
+  color: var(--color-accent);
+}
+.doc-content h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 14px 0 6px;
+  color: var(--color-text);
+}
+.doc-content p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+.doc-content ul,
+.doc-content ol {
+  padding-left: 20px;
+  margin: 8px 0 12px;
+}
+.doc-content li {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+.doc-content blockquote {
+  background: var(--color-surface);
+  border-left: 4px solid var(--color-accent);
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  margin: 12px 0;
+  color: var(--color-text-dim);
+  font-size: 14px;
+}
+.doc-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 12px 0;
+}
+.doc-content th {
+  background: var(--color-surface2);
+  color: var(--color-text-dim);
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--color-border);
+}
+.doc-content td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+.doc-content tr:hover td {
+  background: rgba(108, 138, 255, 0.04);
+}
+.doc-content code {
+  background: var(--color-surface2);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: "Cascadia Code", "Fira Code", monospace;
+}
+.doc-content pre {
+  background: var(--color-surface2);
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 12px 0;
+}
+.doc-content pre code {
+  background: none;
+  padding: 0;
+}
+.doc-content strong {
+  font-weight: 600;
+  color: var(--color-text);
+}
+.doc-content hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 24px 0;
+}
+
+/* Wiki-link styling */
+.doc-content a.wiki-link {
+  color: var(--color-accent);
+  border-bottom: 1px dashed var(--color-accent);
+  padding-bottom: 1px;
+}
+.doc-content a.wiki-link:hover {
+  text-decoration: none;
+  border-bottom-style: solid;
 }

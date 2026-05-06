@@ -1,0 +1,22 @@
+{
+  "aoGroups": {
+    "dave-johnson": {
+      "label": "Dave Johnson",
+      "accounts": ["jnj", "merck", "genmab", "novo-nordisk", "alkermes", "alnylam", "ucb"],
+      "members": [
+        { "email": "dave.johnson@zoomrx.com", "name": "Dave Johnson", "role": "principal", "canEdit": true }
+      ]
+    },
+    "rich-durante": {
+      "label": "Rich Durante",
+      "accounts": ["jnj", "pfizer", "emd-serono", "azn"],
+      "members": [
+        { "email": "rich.durante@zoomrx.com", "name": "Rich Durante", "role": "principal", "canEdit": true }
+      ]
+    }
+  },
+  "admins": [
+    { "email": "vinoth.rajapandian@zoomrx.com", "name": "Vinoth Kumar V", "accounts": ["*"], "canEdit": true }
+  ],
+  "defaultAccess": { "accounts": [], "canEdit": false }
+}
